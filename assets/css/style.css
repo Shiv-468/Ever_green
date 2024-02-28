@@ -177,28 +177,28 @@
 }
 
 .bg-hero-1 {
-    background-image: url(../images/hero-1.jpeg);
+    background-image: url(../images/hero-1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-hero-2 {
-    background-image: url(../images/hero-2.jpeg);
+    background-image: url(../images/hero-2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .bg-hero-3 {
-    background-image: url(../images/hero-3.jpeg);
+    background-image: url(../images/hero-3.webp);
     background-position: center;
     background-size: con;
     background-repeat: no-repeat;
 }
 
 .bg-hero-4 {
-    background-image: url(../images/hero-4.jpeg);
+    background-image: url(../images/hero-4.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@
 }
 
 .bg_service {
-    background-image: url(../images/service1.jpeg);
+    background-image: url(../images/service1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -252,7 +252,7 @@
 }
 
 .bg_service2 {
-    background-image: url(../images/service2.jpeg);
+    background-image: url(../images/service2.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
