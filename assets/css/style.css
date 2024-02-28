@@ -515,8 +515,12 @@ textarea {
     border: 1px solid #88C701;
     border-radius: 25px;
     margin-top: 32px;
+    transition: all 400ms linear;
 }
-
+.form_btn:hover{
+    background: #FFFFFF !important;
+    color:#88C701 !important;
+}
 .footer-gradient {
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F8EC 100%);
 }
