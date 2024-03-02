@@ -16,22 +16,30 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="./assets/css/style.css">
-   <link rel="shortcut icon" href="./assets/images/svg.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/svg.ico" type="image/x-icon">
 </head>
 
 <body>
-    <section class="position-relative">
+    <section class="position-relative" id="homesection">
         <nav class="d-flex align-items-center justify-content-between nav_box">
             <div class="d-flex header_logo">
                 <img src="./assets/images/logo.webp" alt="logo" class="w-100">
             </div>
             <ul class="pl_0 mb-0 d-flex align-items-center gap_28 menulist">
-                <li><a href="" class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Home</a></li>
-                <li><a href="" class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">About us</a></li>
-                <li><a href="" class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Our Services</a></li>
-                <li><a href="" class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Gallery</a></li>
-                <li><a href="" class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Contact Us</a></li>
-                <li><button class="navbtn ms-xl-3 text-nowrap color-white fs-sm fw_500 lh_20">Request a quote</button></li>
+                <li><a href="#homesection"
+                        class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Home</a></li>
+                <li><a href="#aboutus"
+                        class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">About us</a></li>
+                <li><a href="#sectionService"
+                        class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Our Services</a>
+                </li>
+                <li><a href="#sectionGallery"
+                        class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Gallery</a></li>
+                <li><a href="#sectionContactus"
+                        class="fs-sm fw_400 color-black lh_20 op_70 nav_links ff-poppins text-nowrap">Contact Us</a>
+                </li>
+                <li><button class="navbtn ms-xl-3 text-nowrap color-white fs-sm fw_500 lh_20">Request a quote</button>
+                </li>
             </ul>
             <div class="menuicon flex-column d-flex d-block d-lg-none">
                 <span class="bar"></span>
@@ -39,120 +47,122 @@
                 <span class="bar"></span>
             </div>
         </nav>
-     
+
         <div class="hero-slick" id="home">
-          <div class="hero-box bg-hero-1 ">
-            <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
-            <div class="my_container d-flex  h-100  align-items-end pb_49 ">
-              
-                <div class="d-flex flex-column  align-items-start">
-                  <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20">Ut pretium egestas sagittis <span class="fst-italic">convallis</span></h1>
-                  <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</h6>
-                  <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20  ">Request a quote</button>
+            <div class="hero-box bg-hero-1 ">
+                <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
+                <div class="my_container d-flex  h-100  align-items-end pb_49 ">
+
+                    <div class="d-flex flex-column  align-items-start">
+                        <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20">Ut pretium egestas
+                            sagittis <span class="fst-italic">convallis</span></h1>
+                        <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque
+                            amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est
+                            porttitor pellentesque.</h6>
+                        <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20  ">Request a
+                            quote</button>
+                    </div>
+
                 </div>
-              
+
             </div>
-              
-          </div> 
-          <div class="hero-box bg-hero-2 ">
-            <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
-            <div class="my_container d-flex  h-100  align-items-end pb_49 ">
-              
-                <div class="d-flex flex-column  align-items-start">
-                  <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20">Sit amet in<span class="fst-italic"> vulputate</span> ultrices </h1>
-                  <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</h6>
-                  <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20 ">Request a quote</button>
+            <div class="hero-box bg-hero-2 ">
+                <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
+                <div class="my_container d-flex  h-100  align-items-end pb_49 ">
+
+                    <div class="d-flex flex-column  align-items-start">
+                        <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20">Sit amet in<span
+                                class="fst-italic"> vulputate</span> ultrices </h1>
+                        <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque
+                            amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est
+                            porttitor pellentesque.</h6>
+                        <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20 ">Request a quote</button>
+                    </div>
+
                 </div>
-              
+
             </div>
-              
-          </div>
-          <div class="hero-box bg-hero-3 ">
-            <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
-            <div class="my_container d-flex  h-100  align-items-end pb_49 ">
-              
-                <div class="d-flex flex-column  align-items-start">
-                  <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20"> Donec<span class="fst-italic"> orci mauris</span> in enim viverra</h1>
-                  <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est porttitor pellentesque.</h6>
-                  <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20 ">Request a quote</button>
+            <div class="hero-box bg-hero-3 ">
+                <div class="bg_grad position-absolute w-100 h-100 z_20"></div>
+                <div class="my_container d-flex  h-100  align-items-end pb_49 ">
+
+                    <div class="d-flex flex-column  align-items-start">
+                        <h1 class="w_390 ff-libre fw-bold lh_47  fs-3xl color-white m-0 z_20"> Donec<span
+                                class="fst-italic"> orci mauris</span> in enim viverra</h1>
+                        <h6 class="pt-2 m-0 font-poppins fw_400 fs-sm lh_20 color-white w_548 pb_30 z_20">Platea neque
+                            amet a dolor. Libero malesuada pellentesque ultrices urna pellentesque. Varius in est
+                            porttitor pellentesque.</h6>
+                        <button class="btn-2 font-poppins fw_500 fs-sm lh_20 color-white z_20 ">Request a quote</button>
+                    </div>
+
                 </div>
-              
+
             </div>
-              
-          </div>
-        </div>  
-        
-          <button class="slick-btn pre-btn  position-absolute border-0 bg-transparent">
-            <svg class="w-20" width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M34 1L2 33L34 65" stroke="white" stroke-width="2"/>
+        </div>
+
+        <button class="slick-btn pre-btn  position-absolute border-0 bg-transparent">
+            <svg class="sm_width" width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M34 1L2 33L34 65" stroke="white" stroke-width="2" />
             </svg>
-            </button>
-          <button class="slick-btn next-btn bg-transparent border-0 position-absolute ">
-            <svg class="w-20" width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1 1L33 33L1 65" stroke="white" stroke-width="2"/>
+        </button>
+        <button class="slick-btn next-btn bg-transparent border-0 position-absolute ">
+            <svg class="sm_width" width="35" height="66" viewBox="0 0 35 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L33 33L1 65" stroke="white" stroke-width="2" />
             </svg>
-            </button>
-        
-      
-      </section>
+        </button>
+
+
+    </section>
     <section>
         <div class="my_container">
             <h2 class="fs-2xl mb-0 lh_42 ff-libre color-black fw_500 text-center fst-italic py_94">Licensed <span
                     class="color-green">-</span> Bonded <span class="color-green">-</span> Insured</h2>
         </div>
     </section>
-    <section class="bg_1">
+    <section class="bg_1" id="aboutus">
         <div class="my_container py_76">
             <div class="d-flex justify-content-center">
                 <h2 class="fs-2xl lh_42 ff-libre color-black fw_400 text-center w_474 mb-0">Why <span
                         class="color-green fst-italic fw_500">customers choose</span> Evergreen Landscapes LLC</h2>
             </div>
-            <div class="row pt_44 justify-content-center">
-                <div class="col-12 col-sm-6 col-md-4">
-                    <div class="card_1 d-flex flex-column h-100">
-                        <div class="card1_svg">
-                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
-                                    fill="#88C701" />
-                            </svg>
-                        </div>
-                        <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Creative Solutions</h3>
-                        <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Landscape Design & Build</p>
+            <div class="d-flex flex-wrap pt_44 justify-content-center">
+
+                <div class="card_1 d-flex flex-column h-100 mt_16">
+                    <div class="card1_svg">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M17 22.9095H5C4.20435 22.9095 3.44129 22.5934 2.87868 22.0308C2.31607 21.4682 2 20.7052 2 19.9095V9.90951C2 9.11386 2.31607 8.3508 2.87868 7.78819C3.44129 7.22558 4.20435 6.90951 5 6.90951H6C6.01682 6.06215 6.30235 5.24203 6.81541 4.56744C7.32848 3.89285 8.04255 3.39866 8.85464 3.15614C9.66673 2.91363 10.5349 2.93533 11.3338 3.21811C12.1328 3.50089 12.8213 4.03013 13.3 4.72951C13.7484 5.36866 13.9925 6.12877 14 6.90951H17C17.2652 6.90951 17.5196 7.01487 17.7071 7.2024C17.8946 7.38994 18 7.64429 18 7.90951V10.9095C18.8474 10.9263 19.6675 11.2119 20.3421 11.7249C21.0167 12.238 21.5109 12.9521 21.7534 13.7641C21.9959 14.5762 21.9742 15.4444 21.6914 16.2433C21.4086 17.0423 20.8794 17.7308 20.18 18.2095C19.5409 18.658 18.7807 18.902 18 18.9095V21.9095C18 22.1747 17.8946 22.4291 17.7071 22.6166C17.5196 22.8042 17.2652 22.9095 17 22.9095ZM5 8.90951C4.73478 8.90951 4.48043 9.01487 4.29289 9.2024C4.10536 9.38994 4 9.64429 4 9.90951V19.9095C4 20.1747 4.10536 20.4291 4.29289 20.6166C4.48043 20.8042 4.73478 20.9095 5 20.9095H16V17.7295C15.9991 17.5692 16.0368 17.411 16.1099 17.2683C16.183 17.1256 16.2894 17.0025 16.42 16.9095C16.5502 16.8166 16.7008 16.7564 16.8592 16.7338C17.0175 16.7111 17.179 16.7268 17.33 16.7795C17.615 16.8958 17.9254 16.9357 18.2305 16.8954C18.5357 16.855 18.825 16.7358 19.07 16.5495C19.3139 16.4008 19.523 16.2016 19.6834 15.9653C19.8439 15.729 19.9518 15.461 20 15.1795C20.0386 14.8956 20.0157 14.6067 19.9329 14.3323C19.85 14.058 19.7092 13.8047 19.52 13.5895C19.2641 13.2786 18.9155 13.0576 18.5252 12.9587C18.1349 12.8597 17.7231 12.8881 17.35 13.0395C17.199 13.0922 17.0375 13.1079 16.8792 13.0853C16.7208 13.0627 16.5702 13.0024 16.44 12.9095C16.3094 12.8165 16.203 12.6935 16.1299 12.5508C16.0568 12.408 16.0191 12.2499 16.02 12.0895V8.90951H12.82C12.6557 8.91883 12.4915 8.88742 12.3422 8.81809C12.1929 8.74876 12.0631 8.64365 11.9641 8.51207C11.8652 8.3805 11.8003 8.22654 11.7752 8.06386C11.75 7.90118 11.7654 7.73481 11.82 7.57951C11.9363 7.29452 11.9762 6.98414 11.9359 6.679C11.8955 6.37386 11.7763 6.08451 11.59 5.83951C11.4424 5.58868 11.2402 5.37428 10.9984 5.2122C10.7566 5.05013 10.4815 4.94453 10.1934 4.90324C9.90527 4.86194 9.61155 4.886 9.33399 4.97364C9.05644 5.06128 8.80216 5.21025 8.59 5.40951C8.39298 5.60493 8.23877 5.8392 8.1372 6.09744C8.03562 6.35568 7.9889 6.63224 8 6.90951C8.00232 7.13888 8.04637 7.36592 8.13 7.57951C8.18287 7.73073 8.19863 7.89244 8.17597 8.05102C8.1533 8.2096 8.09287 8.36041 7.99976 8.49077C7.90665 8.62112 7.78358 8.7272 7.64093 8.80007C7.49827 8.87294 7.34019 8.91048 7.18 8.90951H5Z"
+                                fill="#88C701" />
+                        </svg>
                     </div>
+                    <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Creative Solutions</h3>
+                    <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Landscape Design & Build</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
-                    <div class="card_1 d-flex flex-column h-100">
-                        <div class="card1_svg2">
-                            <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M4 7.90955C4 9.50084 4.63214 11.027 5.75736 12.1522C6.88258 13.2774 8.4087 13.9095 10 13.9095C11.5913 13.9095 13.1174 13.2774 14.2426 12.1522C15.3679 11.027 16 9.50084 16 7.90955C16 6.31825 15.3679 4.79212 14.2426 3.66691C13.1174 2.54169 11.5913 1.90955 10 1.90955C8.4087 1.90955 6.88258 2.54169 5.75736 3.66691C4.63214 4.79212 4 6.31825 4 7.90955Z"
-                                    stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path
-                                    d="M10.0003 13.9095L13.4003 19.7995L14.9983 16.5665L18.5963 16.7985L15.1963 10.9095M4.80234 10.9095L1.40234 16.7995L5.00034 16.5665L6.59834 19.7985L9.99834 13.9095"
-                                    stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Customer Service</h3>
-                        <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Our team is on call to deliver
-                            excellence to our clients</p>
+                <div class="card_1 d-flex flex-column h-100 mt_16">
+                    <div class="card1_svg2">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 7.90955C4 9.50084 4.63214 11.027 5.75736 12.1522C6.88258 13.2774 8.4087 13.9095 10 13.9095C11.5913 13.9095 13.1174 13.2774 14.2426 12.1522C15.3679 11.027 16 9.50084 16 7.90955C16 6.31825 15.3679 4.79212 14.2426 3.66691C13.1174 2.54169 11.5913 1.90955 10 1.90955C8.4087 1.90955 6.88258 2.54169 5.75736 3.66691C4.63214 4.79212 4 6.31825 4 7.90955Z"
+                                stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M10.0003 13.9095L13.4003 19.7995L14.9983 16.5665L18.5963 16.7985L15.1963 10.9095M4.80234 10.9095L1.40234 16.7995L5.00034 16.5665L6.59834 19.7985L9.99834 13.9095"
+                                stroke="#88C701" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
                     </div>
+                    <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Customer Service</h3>
+                    <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Our team is on call to deliver
+                        excellence to our clients</p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-md-0">
-                    <div class="card_1 d-flex flex-column h-100">
-                        <div class="card1_svg">
-                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M11.25 2.40955C10.0163 2.40955 9 3.4258 9 4.65955V5.8078L8.90625 5.5033C8.5485 4.3228 7.27425 3.64555 6.09375 4.0033C4.91325 4.36105 4.236 5.6353 4.59375 6.8158L6.53925 13.1443C6.39825 13.1998 6.24675 13.2643 6.09375 13.3543C5.46675 13.7293 4.758 14.4883 4.5465 15.6988C4.389 16.595 4.5615 17.3833 4.6875 17.8078V17.8318L5.27325 19.7068C5.60417 20.779 6.26981 21.717 7.17262 22.3833C8.07542 23.0496 9.16792 23.4093 10.29 23.4095H14.25C17.1413 23.4095 19.5 21.0508 19.5 18.1595V10.5658C19.494 10.5425 19.485 10.5185 19.4768 10.4953C19.4093 9.66955 18.9083 8.89855 18.0938 8.5738C17.5283 8.34805 16.9335 8.3803 16.4063 8.59705C16.1608 8.12043 15.7538 7.74665 15.258 7.54255C14.977 7.43144 14.6764 7.37828 14.3743 7.38628C14.0721 7.39427 13.7748 7.46324 13.5 7.58905V4.65955C13.5 3.4258 12.4838 2.40955 11.25 2.40955ZM11.25 3.90955C11.6745 3.90955 12 4.23505 12 4.65955V9.60505L11.2268 11.5738C11.118 11.8499 11.0622 12.144 11.0625 12.4408L7.992 12.839L6.0465 6.3703C6.01567 6.27644 6.00401 6.17734 6.01223 6.07889C6.02044 5.98043 6.04836 5.88464 6.09432 5.79719C6.14029 5.70974 6.20336 5.63242 6.27979 5.56982C6.35622 5.50722 6.44446 5.46062 6.53925 5.4328C6.9435 5.3098 7.35375 5.54455 7.47675 5.9488L9.02325 11.081L9.867 10.8238H10.5V4.65955C10.5 4.23505 10.8255 3.90955 11.25 3.90955ZM14.391 8.8783C14.487 8.8753 14.5988 8.8873 14.6955 8.92555C14.7884 8.96172 14.8731 9.01603 14.9447 9.08532C15.0164 9.15461 15.0735 9.23749 15.1127 9.3291C15.152 9.42071 15.1726 9.51923 15.1733 9.61889C15.174 9.71856 15.1549 9.81736 15.117 9.90955L14.3205 11.9015V11.9248L14.0153 12.6988C14.001 12.7393 13.9658 12.7573 13.9455 12.7925C13.5574 12.4858 13.0803 12.3132 12.5858 12.3005C12.5948 12.2443 12.5858 12.1918 12.6098 12.1355L13.7348 9.34705C13.8518 9.0508 14.1008 8.8843 14.391 8.8783ZM17.226 9.90955C17.3265 9.90955 17.4315 9.91855 17.5313 9.9568C17.6687 10.0097 17.787 10.1028 17.8707 10.2241C17.9543 10.3453 17.9994 10.489 18 10.6363V10.6595C18 10.7503 17.988 10.85 17.9528 10.9408L17.109 13.0265C17.0729 13.1195 17.0186 13.2043 16.9494 13.276C16.8801 13.3477 16.7973 13.4049 16.7056 13.4442C16.614 13.4835 16.5155 13.5042 16.4158 13.505C16.3161 13.5058 16.2172 13.4867 16.125 13.4488C15.7328 13.2905 15.5685 12.8563 15.7268 12.464L16.5233 10.472C16.5353 10.442 16.5353 10.4075 16.5473 10.3783C16.6192 10.1908 16.762 10.0392 16.9448 9.95605C17.0347 9.92104 17.131 9.9052 17.2275 9.90955H17.226ZM12.375 13.7765C12.4674 13.7537 12.5634 13.7496 12.6574 13.7645C12.7514 13.7794 12.8415 13.8129 12.9223 13.8632C13.0031 13.9135 13.073 13.9794 13.128 14.0571C13.1829 14.1349 13.2216 14.2228 13.242 14.3158C13.3005 14.5588 13.2683 14.6818 13.1955 14.8078C13.122 14.9338 12.9668 15.089 12.633 15.2068L9 16.1443C8.89079 16.1734 8.78956 16.2268 8.70389 16.3005C8.61821 16.3742 8.55029 16.4663 8.50522 16.5699C8.46014 16.6735 8.43907 16.786 8.44358 16.899C8.44809 17.0119 8.47806 17.1223 8.53125 17.222L9.21075 18.464C9.25827 18.5505 9.32241 18.6266 9.3995 18.6882C9.47658 18.7497 9.56507 18.7954 9.65988 18.8226C9.75469 18.8498 9.85394 18.8579 9.95191 18.8466C10.0499 18.8353 10.1447 18.8047 10.2308 18.7565C10.317 18.709 10.393 18.6449 10.4544 18.568C10.5158 18.491 10.5614 18.4027 10.5886 18.3081C10.6157 18.2134 10.624 18.1144 10.6127 18.0165C10.6015 17.9187 10.5711 17.8241 10.5233 17.738L10.3125 17.363L13.0785 16.6355C13.101 16.6303 13.125 16.6213 13.1483 16.613C13.7288 16.4105 14.1945 16.0648 14.4848 15.5818C14.7178 15.1862 14.8165 14.7257 14.766 14.2693C14.985 14.5063 15.2663 14.7028 15.5858 14.8318C15.9921 14.9962 16.4379 15.0371 16.8673 14.9493C17.2968 14.8615 17.6908 14.649 18 14.3383V18.1595C18 20.2393 16.3298 21.9095 14.25 21.9095H10.2893C8.63925 21.9095 7.1895 20.837 6.7035 19.2613L6.141 17.3863C6.07875 17.1838 5.95575 16.475 6.0465 15.956C6.1875 15.1505 6.53925 14.84 6.867 14.6435C7.1955 14.4478 7.4295 14.4335 7.4295 14.4335H7.47675L12.3045 13.7998C12.3285 13.7945 12.3518 13.7848 12.375 13.7765Z"
-                                    fill="#88C701" />
-                            </svg>
-                        </div>
-                        <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Peace of mind</h3>
-                        <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Proven Proactive Approach</p>
+                <div class="card_1 d-flex flex-column h-100 mt_16">
+                    <div class="card1_svg">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.25 2.40955C10.0163 2.40955 9 3.4258 9 4.65955V5.8078L8.90625 5.5033C8.5485 4.3228 7.27425 3.64555 6.09375 4.0033C4.91325 4.36105 4.236 5.6353 4.59375 6.8158L6.53925 13.1443C6.39825 13.1998 6.24675 13.2643 6.09375 13.3543C5.46675 13.7293 4.758 14.4883 4.5465 15.6988C4.389 16.595 4.5615 17.3833 4.6875 17.8078V17.8318L5.27325 19.7068C5.60417 20.779 6.26981 21.717 7.17262 22.3833C8.07542 23.0496 9.16792 23.4093 10.29 23.4095H14.25C17.1413 23.4095 19.5 21.0508 19.5 18.1595V10.5658C19.494 10.5425 19.485 10.5185 19.4768 10.4953C19.4093 9.66955 18.9083 8.89855 18.0938 8.5738C17.5283 8.34805 16.9335 8.3803 16.4063 8.59705C16.1608 8.12043 15.7538 7.74665 15.258 7.54255C14.977 7.43144 14.6764 7.37828 14.3743 7.38628C14.0721 7.39427 13.7748 7.46324 13.5 7.58905V4.65955C13.5 3.4258 12.4838 2.40955 11.25 2.40955ZM11.25 3.90955C11.6745 3.90955 12 4.23505 12 4.65955V9.60505L11.2268 11.5738C11.118 11.8499 11.0622 12.144 11.0625 12.4408L7.992 12.839L6.0465 6.3703C6.01567 6.27644 6.00401 6.17734 6.01223 6.07889C6.02044 5.98043 6.04836 5.88464 6.09432 5.79719C6.14029 5.70974 6.20336 5.63242 6.27979 5.56982C6.35622 5.50722 6.44446 5.46062 6.53925 5.4328C6.9435 5.3098 7.35375 5.54455 7.47675 5.9488L9.02325 11.081L9.867 10.8238H10.5V4.65955C10.5 4.23505 10.8255 3.90955 11.25 3.90955ZM14.391 8.8783C14.487 8.8753 14.5988 8.8873 14.6955 8.92555C14.7884 8.96172 14.8731 9.01603 14.9447 9.08532C15.0164 9.15461 15.0735 9.23749 15.1127 9.3291C15.152 9.42071 15.1726 9.51923 15.1733 9.61889C15.174 9.71856 15.1549 9.81736 15.117 9.90955L14.3205 11.9015V11.9248L14.0153 12.6988C14.001 12.7393 13.9658 12.7573 13.9455 12.7925C13.5574 12.4858 13.0803 12.3132 12.5858 12.3005C12.5948 12.2443 12.5858 12.1918 12.6098 12.1355L13.7348 9.34705C13.8518 9.0508 14.1008 8.8843 14.391 8.8783ZM17.226 9.90955C17.3265 9.90955 17.4315 9.91855 17.5313 9.9568C17.6687 10.0097 17.787 10.1028 17.8707 10.2241C17.9543 10.3453 17.9994 10.489 18 10.6363V10.6595C18 10.7503 17.988 10.85 17.9528 10.9408L17.109 13.0265C17.0729 13.1195 17.0186 13.2043 16.9494 13.276C16.8801 13.3477 16.7973 13.4049 16.7056 13.4442C16.614 13.4835 16.5155 13.5042 16.4158 13.505C16.3161 13.5058 16.2172 13.4867 16.125 13.4488C15.7328 13.2905 15.5685 12.8563 15.7268 12.464L16.5233 10.472C16.5353 10.442 16.5353 10.4075 16.5473 10.3783C16.6192 10.1908 16.762 10.0392 16.9448 9.95605C17.0347 9.92104 17.131 9.9052 17.2275 9.90955H17.226ZM12.375 13.7765C12.4674 13.7537 12.5634 13.7496 12.6574 13.7645C12.7514 13.7794 12.8415 13.8129 12.9223 13.8632C13.0031 13.9135 13.073 13.9794 13.128 14.0571C13.1829 14.1349 13.2216 14.2228 13.242 14.3158C13.3005 14.5588 13.2683 14.6818 13.1955 14.8078C13.122 14.9338 12.9668 15.089 12.633 15.2068L9 16.1443C8.89079 16.1734 8.78956 16.2268 8.70389 16.3005C8.61821 16.3742 8.55029 16.4663 8.50522 16.5699C8.46014 16.6735 8.43907 16.786 8.44358 16.899C8.44809 17.0119 8.47806 17.1223 8.53125 17.222L9.21075 18.464C9.25827 18.5505 9.32241 18.6266 9.3995 18.6882C9.47658 18.7497 9.56507 18.7954 9.65988 18.8226C9.75469 18.8498 9.85394 18.8579 9.95191 18.8466C10.0499 18.8353 10.1447 18.8047 10.2308 18.7565C10.317 18.709 10.393 18.6449 10.4544 18.568C10.5158 18.491 10.5614 18.4027 10.5886 18.3081C10.6157 18.2134 10.624 18.1144 10.6127 18.0165C10.6015 17.9187 10.5711 17.8241 10.5233 17.738L10.3125 17.363L13.0785 16.6355C13.101 16.6303 13.125 16.6213 13.1483 16.613C13.7288 16.4105 14.1945 16.0648 14.4848 15.5818C14.7178 15.1862 14.8165 14.7257 14.766 14.2693C14.985 14.5063 15.2663 14.7028 15.5858 14.8318C15.9921 14.9962 16.4379 15.0371 16.8673 14.9493C17.2968 14.8615 17.6908 14.649 18 14.3383V18.1595C18 20.2393 16.3298 21.9095 14.25 21.9095H10.2893C8.63925 21.9095 7.1895 20.837 6.7035 19.2613L6.141 17.3863C6.07875 17.1838 5.95575 16.475 6.0465 15.956C6.1875 15.1505 6.53925 14.84 6.867 14.6435C7.1955 14.4478 7.4295 14.4335 7.4295 14.4335H7.47675L12.3045 13.7998C12.3285 13.7945 12.3518 13.7848 12.375 13.7765Z"
+                                fill="#88C701" />
+                        </svg>
                     </div>
+                    <h3 class="fs-md color-black2 fw_500 lh_24 ff-libre pt_28 mb-0">Peace of mind</h3>
+                    <p class="color-black op_50 fs-sm lh_24 ff-poppins pt_11 mb-0">Proven Proactive Approach</p>
                 </div>
             </div>
         </div>
@@ -161,29 +171,34 @@
         <div class="my_container py_124">
             <div class="row">
                 <div
-                    class="col-12 col-md-6 d-flex justify-content-center flex-column align-items-center align-items-md-start">
+                    class="col-12 col-md-5 d-flex justify-content-center flex-column align-items-center align-items-md-start">
                     <img src="./assets/images/cicago.webp" alt="cicago" class="w_485 w-100">
                 </div>
-                <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
-                    <h2 class="fw_400 fs-2xl ff-libre lh_42 color-black2 mb-0 text-center text-sm-start">Evergreen Landscapes is a full-service
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center align-items-center align-items-md-end">
+                <div class="w_470">
+                    <h2 class="fw_400 fs-2xl ff-libre lh_42 color-black2 mb-0 text-center text-sm-start">Evergreen
+                        Landscapes is a full-service
                         landscaping company servicing the <span class="color-green fw_500 fst-italic">Chicago</span>
                         land area.</h2>
                     <p class="fs-sm mb-0 ff-poppins lh_24 color-black op_50 pt_18">Our team is dedicated to giving our
                         clients the very best of landscaping in a safe and professional manner.
-                        Founded in 2012, Evergreen Landscapes (formerly David's Lawn Care) has come a long way from its
-                        beginnings. When we first started out, our passion for providing quality and affordable services
-                        to our valuable clients drove us to take action and gave us the momentum to turn hard work and
-                        inspiration into a growing landscaping company. We now serve customers all over the Chicago land
-                        area and are thrilled to be a part of the landscaping industry.
-                        We hope you enjoy our services as much as we enjoy offering them to you. If you have any
-                        questions or comments, please don't hesitate to contact us.</p>
+                        </p>
+                        <p class="mb-0 fs-sm ff-poppins lh_24 color-black op_50 pt-2">Founded in 2012, Evergreen Landscapes (formerly David's Lawn Care) has come a long way from its
+                            beginnings. When we first started out, our passion for providing quality and affordable services
+                            to our valuable clients drove us to take action and gave us the momentum to turn hard work and
+                            inspiration into a growing landscaping company. We now serve customers all over the Chicago land
+                            area and are thrilled to be a part of the landscaping industry.
+                            </p>
+                            <p class="mb-0 fs-sm ff-poppins lh_24 color-black op_50 pt-2">We hope you enjoy our services as much as we enjoy offering them to you. If you have any
+                                questions or comments, please don't hesitate to contact us.</p>
+                </div>
                 </div>
             </div>
         </div>
-        <div class="my_container">
+        <div class="my_container" id="sectionService">
             <h2 class="mb-0 ff-libre fw_400 fs-2xl lh_42 color-black text-center pb_38">Our Services</h2>
             <div class="row justify-content-center">
-                <div class="col-12 col-sm-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4 d-flex flex-column align-items-center">
                     <div class="bg_service d-flex align-items-end justify-content-center position-relative ">
                         <div class="bg-color d-flex w-100 h-100 position-absolute"></div>
                         <p class="mb-0 fs-lg fw_400 lh_24 ff-libre color-white pb_20 text-center servicetext z-2">
@@ -191,15 +206,15 @@
                         <div
                             class="gradient-bg d-flex align-items-center flex-column justify-content-center position-absolute p-4 w-100 h-100">
                             <p class="fs-lg mb-0 color-white lh_24 ff-libre text-center fw_400">Commercial services</p>
-                            <p class="fs-sm mb-0 color-white lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253"><span
-                                    class="d-block">Snow Shoveling</span>
+                            <p class="fs-sm mb-0 color-white lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253">
+                                <span class="d-block">Snow Shoveling</span>
                                 <span class="d-block">Snow Shoveling</span>
                                 Cleaning of Walkways & Sidewalks Ice Melt Applications
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
+                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0 d-flex flex-column align-items-center">
                     <div class="bg_service2 d-flex align-items-end justify-content-center position-relative ">
                         <div class="bg-color2 d-flex w-100 h-100 position-absolute"></div>
                         <p class="mb-0 fs-lg fw_400 lh_24 ff-libre color-white pb_20 text-center servicetext2 z-2">
@@ -207,15 +222,15 @@
                         <div
                             class="gradient-bg2 d-flex align-items-center flex-column justify-content-center position-absolute p-4 w-100 h-100">
                             <p class="fs-lg color-white mb-0 lh_24 ff-libre text-center fw_400">Residential services</p>
-                            <p class="fs-sm color-white mb-0 lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253"><span
-                                    class="d-block">Snow Shoveling</span>
+                            <p class="fs-sm color-white mb-0 lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253">
+                                <span class="d-block">Snow Shoveling</span>
                                 <span class="d-block">Snow Shoveling</span>
                                 Cleaning of Walkways & Sidewalks Ice Melt Applications
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-md-0">
+                <div class="col-12 col-sm-6 col-md-4 mt-4 mt-md-0 d-flex flex-column align-items-center">
                     <div class="bg_service3 d-flex align-items-end justify-content-center position-relative ">
                         <div class="bg-color3 d-flex w-100 h-100 position-absolute"></div>
                         <p class="mb-0 fs-lg fw_400 lh_24 ff-libre color-white pb_20 text-center servicetext3 z-2">
@@ -223,8 +238,8 @@
                         <div
                             class="gradient-bg3 d-flex align-items-center flex-column justify-content-center position-absolute p-4 w-100 h-100">
                             <p class="fs-lg color-white mb-0 lh_24 ff-libre text-center fw_400">Winter services</p>
-                            <p class="fs-sm color-white mb-0 lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253"><span
-                                    class="d-block">Snow Shoveling</span>
+                            <p class="fs-sm color-white mb-0 lh_24 pt_11 op_70 ff-poppins text-center fw_400 w_253">
+                                <span class="d-block">Snow Shoveling</span>
                                 <span class="d-block">Snow Shoveling</span>
                                 Cleaning of Walkways & Sidewalks Ice Melt Applications
                             </p>
@@ -234,7 +249,7 @@
             </div>
         </div>
     </section>
-    <section class="pr-3">
+    <section class="pr-3" id="sectionGallery">
         <h2 class="mb-0 ff-libre fw_400 fs-2xl lh_42 color-black text-center pt_110 pb_45">Gallery</h2>
         <div class="grid_slider d-flex">
             <div class="img_card w_461">
@@ -277,94 +292,58 @@
                     <img src="./assets/images/nursing-home.webp" alt="nursing-home" class="w-100">
                 </div>
             </div>
-</div>
-    <div class="pt-3">
-        <div class="grid_slider2" dir="rtl">
-            <div class="img_card w_548 min_h_297">
-                <div class="d-flex justify-content-center ms-3 h-100 min_h_297 ">
-                    <img src="./assets/images/home-stair.webp" alt="car-parked" class="w-100 min_h_297">
+        </div>
+        <div class="pt-3">
+            <div class="grid_slider2" dir="rtl">
+                <div class="img_card w_548 min_h_297">
+                    <div class="d-flex justify-content-center ms-3 h-100 min_h_297 ">
+                        <img src="./assets/images/home-stair.webp" alt="car-parked" class="w-100 min_h_297">
+                    </div>
                 </div>
-            </div>
-            <div class="img_card w_285 min_h_297">
-                <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
-                    <img src="./assets/images/Frame16.webp" alt="Frame16" class="w-100 min_h_297">
+                <div class="img_card w_285 min_h_297">
+                    <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
+                        <img src="./assets/images/Frame16.webp" alt="Frame16" class="w-100 min_h_297">
+                    </div>
                 </div>
-            </div>
-            <div class="img_card w_486 min_h_297">
-                <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
-                    <img src="./assets/images/Frame48.webp" alt="Frame48" class="w-100 min_h_297">
+                <div class="img_card w_486 min_h_297">
+                    <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
+                        <img src="./assets/images/Frame48.webp" alt="Frame48" class="w-100 min_h_297">
+                    </div>
                 </div>
-            </div>
-            <div class="img_card w_359  min_h_297">
-                <div class="d-flex justify-content-center ms-3 min_h_297  h-100">
-                    <img src="./assets/images/Frame50.webp" alt="Frame50" class="w-100 min_h_297">
+                <div class="img_card w_359  min_h_297">
+                    <div class="d-flex justify-content-center ms-3 min_h_297  h-100">
+                        <img src="./assets/images/Frame50.webp" alt="Frame50" class="w-100 min_h_297">
+                    </div>
                 </div>
-            </div>
-            <div class="img_card w_548 min_h_297">
-                <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
-                    <img src="./assets/images/Frame56.webp" alt="Frame56" class="w-100 min_h_297">
+                <div class="img_card w_548 min_h_297">
+                    <div class="d-flex justify-content-center ms-3 h-100 min_h_297">
+                        <img src="./assets/images/Frame56.webp" alt="Frame56" class="w-100 min_h_297">
+                    </div>
                 </div>
-            </div>
-         
+
             </div>
         </div>
 
-</section>
+    </section>
     <section>
         <div class="my_container2  pb_112">
             <h2 class="mb-0 ff-libre fw_400 fs-2xl lh_42 color-black text-center pt_112 pb_39">Check out our <span
                     class="fw_500 fst-italic color-green">happy clients</span></h2>
-            <div class="happy_slider">
-                <div class="card_2 me-4">
-                    <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-                            fill="#88C701" />
-                    </svg>
-                    <p class="mb-0 pt-3 color-black3 fs-sm fst-italic lh_24 fw_400 ff-poppins op_70">Evergreen provided
-                        high quality service in a timely manner for me. David was a pleasure to deal with, his honesty
-                        and customer service is unparalleled. If you want the job done right, use Evergreen!</p>
-                    <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">E. B.</p>
-                    <img src="./assets/images/stars.webp" alt="stars">
-                </div>
-                <div class="card_2 me-4">
-                    <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-                            fill="#88C701" />
-                    </svg>
-                    <p class="mb-0 pt-3 color-black3 fs-sm fst-italic lh_24 fw_400 ff-poppins op_70">It is quite clear
-                        that Dave truly cares about his clients and about the work he does for them. If you hire his
-                        service, your lawn care goals and ambitions will become is own, and he will ensure you are not
-                        just satisfied but thrilled.</p>
-                    <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">S. K.</p>
-                    <img src="./assets/images/stars.webp" alt="stars">
-                </div>
-                <div class="card_2 me-4">
-                    <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-                            fill="#88C701" />
-                    </svg>
-                    <p class="mb-0 pt-3 color-black3 fs-sm fst-italic lh_24 fw_400 ff-poppins op_70">Evergreen
-                        Landscapes does amazing work and they are very well priced. I definitely will use them for all
-                        my landscaping needs.</p>
-                    <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">Y. C.</p>
-                    <img src="./assets/images/stars.webp" alt="stars">
-                </div>
-                <div class="card_2 me-4">
-                    <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
-                            fill="#88C701" />
-                    </svg>
-                    <p class="mb-0 pt-3 color-black3 fs-sm fst-italic lh_24 fw_400 ff-poppins op_70">Evergreen provided
-                        high quality service in a timely manner for me. David was a pleasure to deal with, his honesty
-                        and customer service is unparalleled. If you want the job done right, use Evergreen!</p>
-                    <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">E. B.</p>
-                    <img src="./assets/images/stars.webp" alt="stars">
-                </div>
-                <div class="card_2 me-4">
+            <div class="d-flex flex-wrap gap_19 justify-content-center">
+             
+                    <div class="card_2">
+                        <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
+                                fill="#88C701" />
+                        </svg>
+                        <p class="mb-0 pt-3 color-black3 fs-sm fst-italic lh_24 fw_400 ff-poppins op_70">Evergreen provided
+                            high quality service in a timely manner for me. David was a pleasure to deal with, his honesty
+                            and customer service is unparalleled. If you want the job done right, use Evergreen!</p>
+                        <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">E. B.</p>
+                        <img src="./assets/images/stars.webp" alt="stars">
+                    </div>
+                <div class="card_2">
                     <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
@@ -377,7 +356,7 @@
                     <p class="mb-0 fs-sm fw_400 lh_24 pt-3 pb_2 color-black ff-libre">S. K.</p>
                     <img src="./assets/images/stars.webp" alt="stars">
                 </div>
-                <div class="card_2 me-4">
+                <div class="card_2">
                     <svg width="26" height="19" viewBox="0 0 26 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M7.03134 0.316667C7.19768 0.191911 7.38697 0.10114 7.58839 0.0495369C7.78981 -0.00206649 7.99942 -0.0134919 8.20526 0.0159133C8.4111 0.0453185 8.60913 0.114978 8.78804 0.220916C8.96696 0.326853 9.12325 0.466993 9.24801 0.633334C9.37277 0.799675 9.46354 0.98896 9.51514 1.19038C9.56674 1.3918 9.57817 1.60141 9.54876 1.80725C9.51936 2.01309 9.4497 2.21112 9.34376 2.39003C9.23783 2.56895 9.09769 2.72524 8.93134 2.85C6.45501 4.70725 5.03634 6.51383 4.22409 8.09083C5.33935 7.80375 6.51634 7.87124 7.59146 8.28393C8.66659 8.69662 9.58644 9.434 10.2232 10.3936C10.8599 11.3532 11.1818 12.4873 11.1443 13.6383C11.1067 14.7893 10.7115 15.9 10.0136 16.816C9.3157 17.732 8.34974 18.4079 7.25 18.7496C6.15026 19.0913 4.97137 19.082 3.8772 18.7228C2.78304 18.3636 1.82794 17.6725 1.14468 16.7455C0.461415 15.8185 0.0839245 14.7016 0.0646769 13.5502C-0.138208 11.6057 0.137938 9.64117 0.86901 7.828C1.81426 5.4435 3.66201 2.84367 7.03134 0.316667ZM21.2813 0.316667C21.4477 0.191911 21.637 0.10114 21.8384 0.0495369C22.0398 -0.00206649 22.2494 -0.0134919 22.4553 0.0159133C22.6611 0.0453185 22.8591 0.114978 23.038 0.220916C23.217 0.326853 23.3733 0.466993 23.498 0.633334C23.6228 0.799675 23.7135 0.98896 23.7651 1.19038C23.8167 1.3918 23.8282 1.60141 23.7988 1.80725C23.7694 2.01309 23.6997 2.21112 23.5938 2.39003C23.4878 2.56895 23.3477 2.72524 23.1813 2.85C20.705 4.70725 19.2863 6.51383 18.4741 8.09083C19.5893 7.80375 20.7663 7.87124 21.8415 8.28393C22.9166 8.69662 23.8364 9.434 24.4732 10.3936C25.1099 11.3532 25.4318 12.4873 25.3943 13.6383C25.3567 14.7893 24.9615 15.9 24.2636 16.816C23.5657 17.732 22.5997 18.4079 21.5 18.7496C20.4003 19.0913 19.2214 19.082 18.1272 18.7228C17.033 18.3636 16.0779 17.6725 15.3947 16.7455C14.7114 15.8185 14.3339 14.7016 14.3147 13.5502C14.1118 11.6057 14.3879 9.64117 15.119 7.828C16.0658 5.4435 17.912 2.84367 21.2813 0.316667Z"
@@ -393,7 +372,7 @@
         </div>
     </section>
 
-    <section class="pt_lg_112">
+    <section class="pt_lg_112" id="sectionContactus">
         <div class="form_bg ">
             <div class="my_container">
                 <div class="row pt_row_form">
@@ -409,10 +388,10 @@
                                             fill="#88C701" />
                                     </svg>
                                 </div>
-                              <ul class="pl_0 mb-0">
-                                <li><a class="fs-sm color-black lh_24 fw_400 op_70 ff-poppins" href="tel:+312610-9790"
-                                    target="_blank">(312) 610-9790</a></li>
-                              </ul>
+                                <ul class="pl_0 mb-0">
+                                    <li><a class="fs-sm color-black lh_24 fw_400 op_70 ff-poppins"
+                                            href="tel:+312610-9790" target="_blank">(312) 610-9790</a></li>
+                                </ul>
                             </div>
                             <div class="d-flex gap-1 gap-sm-3 flex-wrap align-items-center pt_11">
                                 <div class="form_svg">
@@ -425,8 +404,8 @@
                                 </div>
                                 <ul class="pl_0 mb-0">
                                     <li><a class="fs-sm color-black lh_24 fw_400 op_70 ff-poppins"
-                                        href="https://mail.google.com/mail/u/0/#inbox"
-                                        target="_blank">info@evergreenlandscapesco.com</a></li>
+                                            href="https://mail.google.com/mail/u/0/#inbox"
+                                            target="_blank">info@evergreenlandscapesco.com</a></li>
                                 </ul>
                             </div>
                             <p class="mb-0 fs-sm color-black lh_24 fw_400 ff-libre pt_29">Hours</p>
@@ -529,7 +508,7 @@
         $('.grid_slider').slick({
             dots: false,
             infinite: true,
-            speed: 200,
+            speed: 5000 ,
             arrows: false,
             autoplay: true,
             slidesToShow: 3.5,
@@ -572,7 +551,7 @@
             rtl: true,
             infinite: true,
             direction: 'right',
-            speed: 200,
+            speed: 5000 ,
             arrows: false,
             autoplay: true,
             slidesToShow: 3,
@@ -610,56 +589,19 @@
 
             ]
         });
-        $('.happy_slider').slick({
-            dots: false,
-            infinite: true,
-            speed: 200,
-            arrows: false,
-            autoplay: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                    breakpoint: 986,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
-                    }
-                },
-                {
-                    breakpoint: 450,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }
-            ]
-        });
+       
         $('.hero-slick').slick({
             dots: false,
             infinite: true,
-            speed: 200,
+            speed: 500,
             arrows: true,
             autoplay: false,
             prevArrow: ".pre-btn",
             nextArrow: ".next-btn",
             slidesToShow: 1,
             slidesToScroll: 1,
+            fade: true,
+  cssEase: 'linear',
         });
     </script>
 
