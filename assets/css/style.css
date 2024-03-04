@@ -560,8 +560,8 @@ textarea {
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F8EC 100%);
 }
 
-.footer-svg {
-    transition: all 400ms linear;
+.footer_svg {
+    transition: all 200ms linear !important;
 }
 
 .footer_svg:hover {
